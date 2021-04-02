@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  row-gap: 30px;
+  background: #91c788;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+body header {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  row-gap: 10px;
+  margin-top: 5vh;
+}
+
+body main {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #ddffbc;
+  min-height: 70vh;
+  width: 50vw;
+}
+
+body main #foodImageContainer {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body main #foodImageContainer img {
+  height: 40vh;
+}
+
+body main button {
+  font-family: 'Raleway', sans-serif;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  margin-bottom: 5vh;
+  width: 50%;
+  padding: 2% 0%;
+  cursor: pointer;
+}
+
+body footer {
+  min-height: 5vh;
+}
+/*# sourceMappingURL=style.css.map */
